@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Log In/Out</title>
+</head>
+<body>
+<h1>Log In/Out</h1>
+
+<h2>Log In</h2>
+<form action="/log/login" method="POST">
+    <label for="employeeId">Select Employee:</label>
+    <select id="employeeId" name="employeeId">
+        <option value="1">Employee 1</option>
+    </select>
+    <button type="submit">Log In</button>
+</form>
+
+<h2>Log Out</h2>
+<form action="/log/logout" method="POST">
+    <label for="employeeId">Select Employee:</label>
+        <option value="1">Employee 1</option>
+    </select>
+    <button type="submit">Log Out</button>
+</form>
+</body>
+</html>

@@ -1,0 +1,12 @@
+[
+    {
+        "employeeId": 1,
+        "time": "2023-09-24T08:00:00",
+        "type": "login"
+    },
+    {
+        "employeeId": 1,
+        "time": "2023-09-24T17:00:00",
+        "type": "logout"
+    }
+]

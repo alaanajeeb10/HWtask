@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Management</title>
+</head>
+<body>
+<h1>Employee Management</h1>
+
+<h2>Add Employee</h2>
+<form action="/employees" method="POST">
+    <label for="employeeName">Employee Name:</label>
+    <input type="text" id="employeeName" name="name" required>
+    <button type="submit">Add</button>
+</form>
+
+
+</form>
+
+<h2>Delete Employee</h2>
+<form action="/employees/:id" method="DELETE">
+    <button type="submit">Delete</button>
+</form>
+
+<h2>List of Employees</h2>
+<ul>
+    <li>Employee 1 <a href="/employees/1">Edit</a> <a href="/employees/1">Delete</a><a href="/employees/1">update</a></li>
+</ul>
+</body>
+</html>
